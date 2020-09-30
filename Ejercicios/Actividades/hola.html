@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3 - Hola Mundo Boton</title>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+            padding: 200px;
+        }
+
+        body button {
+            background-color:midnightblue;
+            color: white;
+            padding: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        body button:hover {
+            background-color:blue;
+        }
+    </style>
+    <h1>Actividad 3 - Hola mundo desde un boton</h1>
+    <button onclick="miEvento()">Haz clic aqui</button>
+    <script>
+        function miEvento() {
+            document.body.style.backgroundColor = "#a5a5a5";
+            alert("Hola desde JavaScript")
+          }
+    </script>
+</body>
+</html>
