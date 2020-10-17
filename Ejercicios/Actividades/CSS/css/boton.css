@@ -1,0 +1,23 @@
+/*Le damos estilos al boton
+Le damos un color de fondo color azul claro,
+con letras blancas, un tipo de fuente Arial,
+letra de 20px en negrita, eliminamos el borde por
+defecto, establecemos un padding para que tenga
+una separación
+*/
+button {
+    background-color: rgb(34, 152, 242);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    border-style: none;
+    padding: 10px 25px;
+}
+
+/*Al pasar por el boton cambiamos el puntero a un
+tipo mano*/
+button:hover {
+    cursor: pointer;
+}

@@ -2,7 +2,6 @@
 
 if ($_POST['registro']=='nuevo') {
 
-
     //Datos obtenidos del formulario
     $nombre =     $_POST['nombre'];
     $apellidop =  $_POST['apellidop'];
